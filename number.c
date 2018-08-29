@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+
+int main()
 {
 int n;
-clrscr();
+
 printf("\n enter the number:");
 scanf("%d",&n);
 if(n>0)
@@ -17,5 +17,5 @@ printf("Negative");
 else{
 printf("zero");
 }
-getch();
+return 0;
 }
