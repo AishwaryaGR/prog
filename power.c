@@ -3,9 +3,9 @@
 int main()
 {
 int num,expo,i;
- printf("enter number");
+ 
 scanf("%d",&num);
- printf("enter exponent");
+ 
 scanf("%d",&expo);
 num=pow(num,expo);
 
