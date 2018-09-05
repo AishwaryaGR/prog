@@ -1,15 +1,14 @@
 #include<stdio.h>
-
+#include<math.h>
 int main()
 {
 int num,expo,i;
- int pw;
+ printf("enter number");
 scanf("%d",&num);
+ printf("enter exponent");
 scanf("%d",&expo);
-for(i=1;i<=expo;i++)
-{
-pw=pw*num;
-}
-printf("%d",pw);
-result 0;
+num=pow(num,expo);
+
+printf("%d",num);
+return 0;
 }
